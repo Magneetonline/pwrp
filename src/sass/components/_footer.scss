@@ -1,0 +1,89 @@
+.page-footer{
+	background: $color-accent;
+	overflow: visible;
+	min-height: rem(135px);
+	position: relative;
+	margin-top:rem(100px);
+	
+	.empty-post &{
+		margin-top:-58px;
+	}
+	
+	& .container{
+		position: relative;
+		
+		@media only screen and (max-width: em(750px))  {
+			.empty-post &{
+				text-align: center;
+			}
+		}
+	}
+	
+	&--logo{
+		position: absolute;
+		top:rem(-121px);
+		@media only screen and (max-width: em(750px))  {
+			left: 50%;
+			transform: translateX(-50%);
+			width: 200px;
+			top:rem(-91px);
+		}
+		
+		 &__clear{ display: none; }
+		
+		.empty-post &{
+			display: none;
+		}
+		
+		.empty-post &__clear{
+			display: block;
+			@media only screen and (max-width: em(750px))  {
+				display: inline-block;
+			}          
+		}
+	}
+	
+	&--menu{
+		display: inline-block;
+		position: absolute;
+		right: 0;
+		top:rem(40px);
+		@media only screen and (max-width: em(750px))  {
+			display: block;
+			text-align: center;
+			position: initial;
+			padding-top: rem(75px);
+			padding-bottom: rem(40px);
+		}
+		
+		.empty-post &{
+			padding-left: rem(300px);
+			padding-top: 0px;
+			
+			@media only screen and (max-width: em(750px))  {
+				padding-left: rem(0px);
+				padding-top: 0px;
+			}
+		}
+		
+		& ul li{
+			display: inline-block;
+			color: white;
+			font-size: rem(14px);
+			margin-right: rem(15px);
+			@media only screen and (max-width: em(750px))  {
+				display: block;
+				text-align: center;
+				margin-right: 0px;
+			}
+			&:before{
+				content: "\f28d";
+				font: normal normal normal rem(14px)/1 FontAwesome;
+				margin-right: rem(5px);
+				@media only screen and (max-width: em(750px))  {
+					content: "";
+				}
+			}
+		}
+	}
+}

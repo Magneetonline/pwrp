@@ -1,0 +1,42 @@
+.page-header{
+	height: rem(180px);
+	background: #f2f3f3;
+	display: flex;
+	align-items: center;
+	border-bottom: 4px solid $color-accent;
+	
+	&__image{
+		@extend .page-header;
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: cover;
+		
+		& .page-header--title{
+			background:hexToRGBA($color-accent, 0.85);
+		}
+	}
+	
+	&__slider{
+		border-bottom: 4px solid $color-accent;
+	}
+	
+	
+	& .container{
+		@media only screen and (min-width: 1100px) {padding-left:rem(250px);}
+		@media only screen and (max-width: 1100px) {text-align: center;}
+		flex-basis: auto;
+		flex-grow: 1;
+	}
+}
+
+.page-header--title{
+	background:hexToRGBA($color-accent, 1);
+	display: inline-block;
+	padding: rem(10px) rem(45px);
+	color: white;
+	text-transform: uppercase;
+	font-size: 1.5rem;
+	/* mix-blend-mode: darken; test for better background */
+	box-shadow: 0 15px 35px rgba(0, 0, 0, .1), 0 3px 10px rgba(0, 0, 0, .07);
+	@media only screen and (max-width: 1100px) {margin:rem(60px) rem(20px) rem(40px) rem(20px);}
+}

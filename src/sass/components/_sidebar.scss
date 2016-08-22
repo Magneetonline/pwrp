@@ -1,0 +1,70 @@
+.main-page{
+	
+	&__sidebar{
+		@extend .main-page;
+		@media only screen and (min-width: em(1100px)) {
+			width: 75%;
+			float: left;
+			padding-right: rem(50px);
+		}
+		
+		@media only screen and (min-width: em(750px))  and (max-width: em(1100px)) {
+			width: 66.666666666%;
+			float: left;
+			padding-right: rem(25px);
+		}
+	}
+}
+
+.main-sidebar{
+	@media only screen and (min-width: em(1100px)) {
+		width: 25%;
+		float: left;
+	}
+	
+	@media only screen and (min-width: em(750px)) and (max-width: em(1100px))  {
+		width: 33.333333333%;
+		float: left;
+	}
+	
+	& .sidebar--widget{
+		background: $color-accent;
+		color: #fff;
+		padding: rem(25px) rem(30px);
+		margin-bottom: rem(50px);
+		
+		&__title{
+			margin-bottom: rem(15px);
+		}
+		
+		&__widget_nav_menu{
+			padding: rem(30px) rem(15px);
+		
+			& ul li{ 
+				margin: rem(10px) 0px;
+				
+				&.current-menu-item a{
+					background: white;
+					color: $color-accent;
+				}
+				
+				& a{
+					@include animateIt(200ms);
+					color: white;
+					padding: rem(8px) rem(10px);
+					
+					&:before{
+						content: "\f054";
+						font: normal normal normal rem(14px)/1 FontAwesome;
+						margin-right: rem(10px);
+					}
+					
+					&:hover{
+						background: white;
+						color: $color-accent;
+					}
+				}
+			}
+		}
+	}
+}
