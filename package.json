@@ -1,10 +1,10 @@
 {
-  "name": "Stamco",
+  "name": "Comfort-bouwen",
   "version": "0.1.0",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:magneetonline/stamco.git"
+    "url": "git@bitbucket.org:magneetonline/comfort-bouwen.git"
   },
   "dependencies": {
     "autoprefixer": "^6.1.2",
