@@ -3,7 +3,7 @@
 	background: #f2f3f3;
 	display: flex;
 	align-items: center;
-	border-bottom: 4px solid $color-accent;
+	border-bottom: 4px solid $main-color;
 	
 	&__image{
 		@extend .page-header;
@@ -12,12 +12,12 @@
 		background-size: cover;
 		
 		& .page-header--title{
-			background:hexToRGBA($color-accent, 0.85);
+			background:hexToRGBA($main-color, 0.85);
 		}
 	}
 	
 	&__slider{
-		border-bottom: 4px solid $color-accent;
+		border-bottom: 4px solid $main-color;
 	}
 	
 	
@@ -30,7 +30,7 @@
 }
 
 .page-header--title{
-	background:hexToRGBA($color-accent, 1);
+	background:hexToRGBA($main-color, 1);
 	display: inline-block;
 	padding: rem(10px) rem(45px);
 	color: white;

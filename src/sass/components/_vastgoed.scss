@@ -30,7 +30,7 @@
 			position: absolute;
 			
 			&:hover{
-				background: hexToRGBA($color-accent, 0.5);
+				background: hexToRGBA($main-color, 0.5);
 				mix-blend-mode:multiply;
 			}
 		}
@@ -55,12 +55,12 @@
 	& .vastgoed--bar{
 		border: 0px;
 		height: rem(3px);
-		background: $color-accent;
+		background: $main-color;
 	}
 }
 
 .vastgoed--description__item{
-	color: $color-accent; 
+	color: $main-color; 
 	font-weight:600;
 	min-width: rem(130px);
 	display: inline-block;

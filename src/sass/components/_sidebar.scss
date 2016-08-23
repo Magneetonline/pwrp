@@ -28,7 +28,7 @@
 	}
 	
 	& .sidebar--widget{
-		background: $color-accent;
+		background: $main-color;
 		color: #fff;
 		padding: rem(25px) rem(30px);
 		margin-bottom: rem(50px);
@@ -45,7 +45,7 @@
 				
 				&.current-menu-item a{
 					background: white;
-					color: $color-accent;
+					color: $main-color;
 				}
 				
 				& a{
@@ -61,7 +61,7 @@
 					
 					&:hover{
 						background: white;
-						color: $color-accent;
+						color: $main-color;
 					}
 				}
 			}

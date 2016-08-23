@@ -1,5 +1,4 @@
 .main-header{
-	height: rem($main-header-height);
 	background:white;
 	z-index: 1;
 	position: relative;
@@ -14,6 +13,46 @@
 			height: rem(86px);
 		}
 	
+	}
+	
+	& .header-text{
+		color: $main-color;
+		font-size: rem(40px);
+		line-height: 7rem;
+		font-weight: bold;
+		display: inline-block;
+		text-align: right;
+		
+		& p{
+			margin-bottom: 0rem;
+		}
+	}
+	
+	& .header-middle{
+		margin-top: 1rem;
+	}
+	
+	& .header-topbar{
+		background: #F5F3F4;
+		color:$color-accent;
+		
+		
+		& .fa{
+			color: lighten($color-accent, 20%);
+		}
+		
+		& span .fa{
+			color: $main-color;
+		}
+		
+		& p{
+			margin: 0.5rem 0rem;
+			font-size: rem(14px);
+			text-align: right;
+			@media only screen and (max-width: 1100px) {
+				text-align: center;
+			}
+		}
 	}
 	
 	& .container{

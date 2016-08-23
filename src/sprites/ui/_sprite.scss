@@ -5,17 +5,17 @@
 			padding-top: calc((20% / 20%) * 100%);
 		}
 	}
-	.icon--ui__stamco_logo_big {
-		@include rem((width: 269px));
+	.icon--ui__logo_big {
+		@include rem((width: 404px));
 
 		&:before {
-			padding-top: calc((174% / 269%) * 100%);
+			padding-top: calc((122% / 404%) * 100%);
 		}
 	}
-	.icon--ui__stamco_logo_clear {
-		@include rem((width: 269px));
+	.icon--ui__logo_footer {
+		@include rem((width: 404px));
 
 		&:before {
-			padding-top: calc((174% / 269%) * 100%);
+			padding-top: calc((122% / 404%) * 100%);
 		}
 	}

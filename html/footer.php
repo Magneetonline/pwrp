@@ -1,13 +1,30 @@
 		<footer class="page-footer">
-			<div class="container">
-				<div class="page-footer--logo"><a href="<?php echo site_url(); ?>"><i class="m-icon icon--ui__stamco_logo_big"><svg><use xlink:href="<?php echo get_template_directory_uri() ?>/media/images/sprites/ui.svg#stamco_logo_big" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></i></a></div>
-				<div class="page-footer--logo__clear"><a href="<?php echo site_url(); ?>"><i class="m-icon icon--ui__stamco_logo_clear"><svg><use xlink:href="<?php echo get_template_directory_uri() ?>/media/images/sprites/ui.svg#stamco_logo_clear" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></i></a></div>
-				<?php if ( is_active_sidebar( 'footer' ) ) : ?>
-					<div class="page-footer--menu">
-						<?php dynamic_sidebar( 'footer' ); ?>
+			<section class="main-bar">
+				<div class="container">
+					<div class="row">
+						<div class="large-6 columns">
+							<?php if ( is_active_sidebar( 'footer' ) ) : ?>
+									<?php dynamic_sidebar( 'footer' ); ?>
+							<?php endif; ?>
+						</div>
+						<div class="large-3 columns">
+							<?php if ( is_active_sidebar( 'footer-2' ) ) : ?>
+									<?php dynamic_sidebar( 'footer-2' ); ?>
+							<?php endif; ?>
+						</div>
+						<div class="large-3 columns">
+							<?php if ( is_active_sidebar( 'footer-3' ) ) : ?>
+									<?php dynamic_sidebar( 'footer-3' ); ?>
+							<?php endif; ?>
+						</div>
 					</div>
-				<?php endif; ?>
-			</div>
+				</div>
+			</section>
+			<section class="bottom-bar">
+				<div class="row">
+					<p class="footer--copy">&copy; <?php echo date('Y') ?> | <?php echo bloginfo('name'); ?> - <?php echo bloginfo('description') ?></p>
+				</div>
+			</section>
 		</footer>
 		</div>
         <!-- <script async src="<?php echo get_template_directory_uri() ?>/media/javascripts/svg4everybody.js"></script>
