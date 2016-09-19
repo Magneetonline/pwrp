@@ -5,6 +5,10 @@
 	position: relative;
 	margin-top:rem(100px);
 	
+	& a {
+		color: white;
+	}
+	
 	.widget{
 		list-style-type: none;
 		color: white;
