@@ -1,0 +1,43 @@
+.btn{
+	@include animateIt(200ms);
+	border: 1px solid $main-color;
+	display: inline-block;
+	padding: 0.5em;
+	color: white;
+	margin-top: 1rem;
+	
+	&:hover{
+		background: $main-color;
+		transform: scale(1.1);
+	}
+	
+	&__primary{
+		background: $main-color;
+		&:hover{
+			background: lighten($main-color, 10);
+		}
+	}
+	
+	&__secondary{
+		border: 1px solid #575656;
+		color: #575656;
+		
+		&:not(.btn__open){
+			background: #575656;
+			color: white;
+			
+			&:hover{
+				background: lighten(#575656, 10);
+			}
+		}
+		
+		&:hover{
+			background: #575656;
+			color: white;
+		}
+	}
+	
+	&__full-width{
+		width: 100%;
+	}
+}
