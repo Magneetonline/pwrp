@@ -2,9 +2,9 @@
 @import 'photoswipe/default-skin/default-skin'; //get skin
 
 .my-gallery{
-	background: #F2F3F3;
-	padding: rem(20px);
-	margin-top:5rem;
+	background: white;
+	padding: rem(20px) 0px rem(20px) 0px;
+	margin-top:0rem;
 	margin-bottom: 3rem;
 	& figure{
 		float: left;

@@ -35,6 +35,7 @@ paths.vendor = "#{paths.src}vendor/"
 # Compiled media
 paths.css = "#{paths.docroot}media/stylesheets/"
 paths.js = "#{paths.docroot}media/javascripts/"
+paths.fonts = "#{paths.docroot}media/fonts/"
 paths.sprites = "#{paths.docroot}media/images/sprites/"
 paths.dist = "#{paths.docroot}dist/"
 
@@ -215,6 +216,11 @@ gulp.task 'rev', ['clear:dist'], ->
   gulp.src [
     "#{paths.css}**/*.css"
     "#{paths.js}**/*.js"
+    "#{paths.fonts}**/*.eot"
+    "#{paths.fonts}**/*.svg"
+    "#{paths.fonts}**/*.ttf"
+    "#{paths.fonts}**/*.woff"
+    "#{paths.pswp}*.*"
   ], base: paths.docroot
   .pipe rev()
   .pipe gulp.dest paths.dist

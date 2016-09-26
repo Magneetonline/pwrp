@@ -13,17 +13,25 @@
 		list-style-type: none;
 		color: white;
 		
+		& .icon--ui__logo_footer{
+			width:  300px!important;
+		}
+		
 		& .textwidget p {
 			margin-bottom: rem(15px);
-			font-weight: 800;
+			font-weight: 400;
+			color: #afafaf;
+			
+			& a{
+				color: #afafaf
+			}
 			
 			& span{
-				font-weight: 400;
+				font-weight: 800;
 			}
 		}
 	}
 	& .bottom-bar{
-		margin-top:rem(55px);
 		background: darken($color-accent, 10%);
 	
 		& .footer--copy{
@@ -32,5 +40,51 @@
 			color: white;
 			font-size: rem(14px);
 		}
+	}
+	
+	& .review-bar{
+		margin-top:rem(40px);
+		padding: rem(50px) 0px;
+		color: #afafaf;
+		background: lighten($color-accent, 5%);
+		text-align: center;
+		
+		& .row{
+			display: flex;
+			align-items:flex-end;
+			
+			& .columns:first-child{
+				text-align: left;
+			}
+			
+			& .columns:last-child{
+				text-align: right;
+			}
+		}
+	}
+	
+	& .footer-btn{
+		@include animateIt(200ms);
+		background: #868383;
+		display: inline-block;
+		padding: 0.5rem 1rem;
+		font-weight: bold;
+		
+		&:hover{
+			background: lighten(#868383, 5%);
+		}
+	}
+	
+	& .review-total{
+		font-size: rem(100px);
+		line-height: rem(90px);
+		
+		& span{
+			font-size: rem(35px);
+		}
+	}
+	
+	& .review-stars{
+		margin-top: rem(-20px);
 	}
 }

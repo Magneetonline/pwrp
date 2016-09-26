@@ -5,17 +5,31 @@
 			padding-top: calc((20% / 20%) * 100%);
 		}
 	}
-	.icon--ui__logo_big {
-		@include rem((width: 404px));
+	.icon--ui__fc-logo-dark {
+		@include rem((width: 200px));
 
 		&:before {
-			padding-top: calc((122% / 404%) * 100%);
+			padding-top: calc((60% / 200%) * 100%);
+		}
+	}
+	.icon--ui__feedback_company_logo {
+		@include rem((width: 200px));
+
+		&:before {
+			padding-top: calc((60% / 200%) * 100%);
+		}
+	}
+	.icon--ui__logo_big {
+		@include rem((width: 366px));
+
+		&:before {
+			padding-top: calc((100% / 366%) * 100%);
 		}
 	}
 	.icon--ui__logo_footer {
-		@include rem((width: 404px));
+		@include rem((width: 365px));
 
 		&:before {
-			padding-top: calc((122% / 404%) * 100%);
+			padding-top: calc((80% / 365%) * 100%);
 		}
 	}

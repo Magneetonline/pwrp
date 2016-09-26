@@ -5,15 +5,8 @@
 					<div class="vastgoed--featured-image" style="background-image: url('<?php echo $image[0]; ?>')">
 					</div>
 					<?php endif; ?>
-				<?php the_content(); ?>
-				<ul class="vastgoed--description__list">
-					<?php foreach (get_field('extra_informatie') as $info){
-						?>
-					<li> <span class="vastgoed--description__item"><?php echo $info['titel'] ?>:</span> <?php echo $info['info'] ?></li>
-						<?php
-					}?>
-				</ul>
-				<?php get_template_part('gallery') ?>			
+				<?php get_template_part('gallery') ?>
+				<?php the_content(); ?>			
 			</main>
 			<aside class="main-sidebar">
 				<?php if ( is_active_sidebar( 'sidebar' ) ) : ?>

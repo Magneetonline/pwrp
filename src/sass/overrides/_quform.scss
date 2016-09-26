@@ -1,7 +1,7 @@
 .iphorm-elements .iphorm-element-wrap-text input,
 .iphorm-elements .iphorm-element-wrap-textarea textarea, {
 	border: none!important;
-	background: #EAEAEA!important;
+	background: white!important;
 	padding: 0.5rem!important;
 	color: black!important;
 	min-width: 90%!important;
@@ -18,4 +18,9 @@
 		background: $color-accent!important;
 		color: white;
 	}
+}
+
+.iphorm-element-wrap-text.iphorm-labels-inside > .iphorm-element-spacer > label, .iphorm-element-wrap-textarea.iphorm-labels-inside > .iphorm-element-spacer > label, .iphorm-element-wrap-password.iphorm-labels-inside > .iphorm-element-spacer > label, .iphorm-element-wrap-captcha.iphorm-labels-inside > .iphorm-element-spacer > label{
+	margin-left: 15px!important;
+	margin-top: 11px!important;
 }

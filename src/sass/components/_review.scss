@@ -1,0 +1,14 @@
+.review-stars{
+	
+	& .fa-star{
+		color: $main-color;
+	}
+	
+	& i{
+		margin-right: 0.25em;
+		
+		&:last-child{
+			margin-right: 0px;
+		}
+	}
+}
