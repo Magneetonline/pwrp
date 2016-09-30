@@ -17,6 +17,10 @@
 	
 	&:hover{
 		background: #F5F3F3;
+		
+		& .blog--article__readmore{
+			color: $main-color;
+		}
 	}
 	
 	& > a{
