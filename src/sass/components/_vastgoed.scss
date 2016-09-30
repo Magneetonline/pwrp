@@ -8,9 +8,44 @@
 	background-position: center center;
 }
 
+.vastgoed--subinfo{
+	background: #F5F3F3;
+	display: block;
+	padding: rem(10px) rem(10px);
+	text-align: center;
+	color: #575756;
+	* {color: #575756;}
+}
+
+.vastgoed--hover{
+	@include animateIt(200ms);
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	background: $main-color;
+	color: white;
+	z-index: 1000000;
+	display: flex;
+	align-items: center;
+	align-content: center;
+	text-align: center;
+	opacity: 0;
+	display: none;
+}
+
 .vastgoed--home{
 	padding-bottom: rem(15px);
 	padding-right: 0.5rem;
+	position: relative;
+	
+	&:hover .vastgoed--hover{
+		display: block;
+		opacity: 1;
+	}
+	
+	& > a{
+		display: block;
+	}
 	
 	&:last-child{
 		padding-right: 0rem;
@@ -18,7 +53,7 @@
 	
 	& .vastgoed--featured-image{
 		min-height: rem(200px);
-		margin-bottom: rem(10px);
+		margin-bottom: rem(0px);
 		position: relative;
 		
 		&__overlay{
@@ -28,12 +63,13 @@
 			background: rgba(0,0,0,0);
 			display: block;
 			position: absolute;
-			
-			&:hover{
-				background: hexToRGBA($main-color, 0.5);
-				mix-blend-mode:multiply;
-			}
 		}
+	}
+	
+	&__information{
+		font-weight: 100;
+		font-style: italic;
+		margin-bottom: 0px;
 	}
 	
 	&__title{
@@ -41,9 +77,10 @@
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
+		font-size: 1rem;
 		
 		& a{
-			color: black;
+			color: #575756;
 		}
 		
 		& .m-icon{
