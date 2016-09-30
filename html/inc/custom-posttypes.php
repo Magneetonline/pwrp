@@ -30,7 +30,7 @@ function projecten_posttype() {
 		'filter_items_list'     => __( 'Filter projecten lijst', 'magneet-online' ),
 	);
 	$rewrite = array(
-		'slug'                  => 'project',
+		'slug'                  => 'projecten',
 		'with_front'            => true,
 		'pages'                 => true,
 		'feeds'                 => true,

@@ -32,7 +32,7 @@
 							     <a href="<?php echo site_url(); ?>"><i class="m-icon icon--ui__logo_big"><svg><use xlink:href="<?php echo get_template_directory_uri() ?>/media/images/sprites/ui.svg#logo_big" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></i></a>
 						    </div>
 					    </div>
-					    <div class="large-6 columns">
+					    <div class="large-6 columns__right">
 						    <div class="header-text">
 							    <p><strong>Vragen of advies?</strong>  Bel 0522 - 820991  &nbsp;<i class="fa fa-whatsapp" aria-hidden="true"></i>&nbsp; 06 - 27311884</p>
 						    </div>

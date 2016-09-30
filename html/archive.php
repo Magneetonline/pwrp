@@ -15,14 +15,14 @@
 			}
 			get_template_part('templates/'. get_post_type() .'/archive', 'sidebar' );
 			$count++;
-			if($count == 4){
+			if($count == 3){
 				$count = 0;
 				echo '</div>';
 			}
 		endwhile; else : 
 			get_template_part('templates/'. get_post_type() .'/notfound' );	
 		endif;
-		if($count < 4){
+		if($count < 3){
 			echo '</div>';
 		} 
 		?>

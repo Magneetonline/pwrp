@@ -12,10 +12,6 @@
 		background-size: cover;
 	}
 	
-	&__slider{
-		border-bottom: 4px solid $main-color;
-	}
-	
 	&--title{
 		background:hexToRGBA($main-color, 0.65);
 		display: inline-block;
