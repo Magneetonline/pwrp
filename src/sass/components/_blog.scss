@@ -1,0 +1,83 @@
+.blog--subinfo{
+	display: block;
+	padding: rem(10px) rem(10px);
+	text-align: left;
+	color: #575756;
+	
+	& h6{
+		margin-top: 1rem;
+	}
+}
+
+.blog--article{
+	padding-bottom: rem(15px);
+	padding-right: 0.5rem;
+	position: relative;
+	margin-bottom: 1rem;
+	
+	&:hover{
+		background: #F5F3F3;
+	}
+	
+	& > a{
+		display: block;
+	}
+	
+	&:last-child{
+		padding-right: 0rem;
+	}
+	
+	& .blog--featured-image{
+		min-height: rem(250px);
+		margin-bottom: rem(0px);
+		position: relative;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-o-background-size: cover;
+		background-repeat: no-repeat;
+		background-position: center center;
+		margin: 0rem 0.6rem;
+
+		&__overlay{
+			@include animateIt(200ms);
+			width: 100%;
+			height: 100%;
+			background: rgba(0,0,0,0);
+			display: block;
+			position: absolute;
+		}
+	}
+	
+	&__information{
+		font-weight: 100;
+		font-style: italic;
+		margin-bottom: 0px;
+	}
+	
+	&__title{
+		margin-bottom: rem(5px);
+		font-weight: bold;
+		
+		& a{
+			color: #575756;
+		}
+		
+		& .m-icon{
+			margin-bottom: rem(-3px)!important;
+			margin-right: rem(5px);
+		}
+	}
+	
+	& .blog--bar{
+		border: 0px;
+		height: rem(3px);
+		background: $main-color;
+	}
+}
+
+.blog--description__item{
+	color: $main-color; 
+	font-weight:600;
+	min-width: rem(130px);
+	display: inline-block;
+}

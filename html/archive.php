@@ -1,6 +1,5 @@
 <?php 
 	get_header(); 
-	
 	get_template_part('templates/'. get_post_type() .'/head', 'archive' );
 		
 	if ( function_exists('yoast_breadcrumb') ) {
