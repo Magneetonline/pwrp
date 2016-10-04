@@ -20,7 +20,7 @@
 .header-menu{
 	margin-bottom: 2rem;
 	margin-top: 1rem;
-	
+
 	& .menu li{
 		@media only screen and (min-width: 1100px) {
 			@include animateIt(200ms);
@@ -59,6 +59,20 @@
 		}
 	}
 }
+
+.menu-toggle{
+		    position: absolute;
+	    top: 0px;
+	    right: 0px;
+	    height: 35px;
+	    width: 35px;
+	    text-align: center;
+	    display: flex;
+	    align-items: center;
+	    justify-content: center;
+	    display: none;
+	}
+
 @media only screen and (max-width: 1100px) {
 	.menu-open{
 		//body class die aangeeft dat menu open moet.
@@ -73,6 +87,15 @@
 			transform: translateX(rem(-$mobile-menu-width));
 			box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1), 0 3px 10px rgba(0, 0, 0, 0.07);
 		}
+		
+		& .menu-toggle{
+			right:rem($mobile-menu-width);
+			z-index: 99;
+		}
+	}
+	
+	.menu-toggle{
+		display: block;
 	}
 	
 	& .wrapper{
@@ -91,15 +114,31 @@
 		transform: translateX(rem(-$mobile-menu-width));
 		border-right: 1px solid RGBA(235, 235, 235, 1.00);
 		box-shadow: 0 15px 35px rgba(0, 0, 0, 0.0), 0 3px 10px rgba(0, 0, 0, 0.0);
+		position: absolute;
+		top: 0;
+		margin: 0;
 			
-		& .menu li a{
-			@include animateIt(200ms);
-			border-bottom: 1px solid RGBA(235, 235, 235, 1.00);
-			padding: rem(20px) rem(20px);
-			display: block;
+		& .menu li{
+			
+			&.current_page_item{
+				background: $main-color;
 				
-			&:hover{
-				background: RGBA(243, 243, 243, 1.00);
+				& a{
+					color: white;
+				}
+			}
+		
+			& a{
+				@include animateIt(200ms);
+				border-bottom: 1px solid RGBA(235, 235, 235, 1.00);
+				padding: rem(20px) rem(20px);
+				display: block;
+				text-align: center;
+				color: $main-color;
+					
+				&:hover{
+					background: RGBA(243, 243, 243, 1.00);
+				}
 			}
 		}
 	}

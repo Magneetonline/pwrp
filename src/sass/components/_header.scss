@@ -4,23 +4,22 @@
 	position: relative;
 	
 	@media only screen and (max-width: 1100px) {
-		height: $main-header-height-mob;
 		margin-top:rem(-$main-header-height-mob);
 		width: 100%;
-		position: absolute;
-		
-		& .header-logo i{
-			height: rem(86px);
-		}
-	
 	}
 	
 	& .header-text{
 		color: $main-color;
 		font-size: rem(22px);
-		line-height: 7rem;
+		line-height: 1;
 		display: inline-block;
 		text-align: right;
+		@media only screen and (max-width: 1100px) {
+			font-size: rem(12px);
+			text-align: center;
+			display: block;
+			margin-top: 1rem;
+		}
 		
 		& p{
 			margin-bottom: 0rem;
@@ -29,6 +28,12 @@
 	
 	& .header-middle{
 		margin-top: 1rem;
+		
+		@media only screen and (max-width: 1100px) {
+			background: white;
+			margin-top: 0px;
+			padding: 0rem 1rem 1rem 1rem
+		}
 	}
 	
 	& .header-topbar{

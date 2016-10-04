@@ -22,7 +22,7 @@
 		    <header class="main-header">
 			    <section class="header-topbar">
 				    <div class="row">
-				    	<p>Lees klantbeoordelingen <span class="review-stars"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span><i class="fa fa-star-o" aria-hidden="true"></i></p>
+				    	<p><a href="#" class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></a>Lees klantbeoordelingen <span class="review-stars"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i></span><i class="fa fa-star-o" aria-hidden="true"></i></p>
 				    </div>
 			    </section>
 			    <section class="header-middle">

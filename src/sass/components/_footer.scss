@@ -4,6 +4,7 @@
 	padding: rem(55px) rem(0px) rem(0px) rem(0px);
 	position: relative;
 	margin-top:rem(100px);
+	text-align: left;
 	
 	& a {
 		color: white;
@@ -39,6 +40,10 @@
 			padding: rem(10px) 0;
 			color: white;
 			font-size: rem(14px);
+			
+			@media only screen and (max-width: 1100px) {
+				padding: rem(10px) rem(10px);	
+			}
 		}
 	}
 	
@@ -48,17 +53,19 @@
 		color: #afafaf;
 		background: lighten($color-accent, 5%);
 		text-align: center;
+		text-align: center;
 		
 		& .row{
-			display: flex;
-			align-items:flex-end;
+			display: block;
 			
-			& .columns:first-child{
-				text-align: left;
+			@media only screen and (min-width: 1100px) {
+				display: flex;
+				align-items:flex-end;
 			}
 			
-			& .columns:last-child{
-				text-align: right;
+			& .columns{
+				text-align: left;
+				margin-bottom: 2rem;
 			}
 		}
 	}

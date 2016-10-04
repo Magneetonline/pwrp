@@ -28,7 +28,7 @@ app.attachFastClick = -> FastClick.attach document.body
 
 app.setup()
 
-$(".menu-icon").on "click", (event) ->
+$(".menu-toggle").on "click", (event) ->
   console.log('click');
   event.preventDefault()
   if $("body").hasClass( "menu-open" )
