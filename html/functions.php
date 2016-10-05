@@ -12,6 +12,7 @@ $use_dashicons = floatval($wp_version) >= 3.8;
 require_once('inc/advanced-custom-fields/acf.php');
 include('inc/custom-fields.php');
 include('inc/custom-posttypes.php');
+include('inc/klantenvertellen.php');
 
 function register_my_menu() {
   register_nav_menu('header-menu',__( 'Header Menu', 'magneet-online' ));

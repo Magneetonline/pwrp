@@ -24,11 +24,11 @@
 				<div class="container">
 					<div class="row">
 						<div class="large-3 columns">
-							<span class="review-total">8<span>,4</span></span><br>
-							<span class="review-stars"><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star" aria-hidden="true"></i><i class="fa fa-star-o" aria-hidden="true"></i></span>
+							<span class="review-total"><?php echo klantenvertellen_cijfer(true) ?></span><br>
+							<span class="review-stars"><?php echo klantenvertellen_stars() ?></span>
 						</div>
 						<div class="large-3 columns">
-							<p>Klantenbeoordelingen (68)</p>
+							<p>Klantenbeoordelingen (<?php echo klantenvertellen_total() ?>)</p>
 							<a class="footer-btn">Lees klantenbeoordeling</a>
 						</div>
 						<div class="large-3 columns">
@@ -36,7 +36,7 @@
 							<a class="footer-btn">Plaats een review</a>
 						</div>
 						<div class="large-3 columns">
-							<a href="/"><i class="m-icon icon--ui__feedback_company_logo"><svg><use xlink:href="http://comfort.sem/wp-content/themes/comfort/media/images/sprites/ui.svg#feedback_company_logo" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></i></a>
+							<a href="/"><i class="m-icon icon--ui__feedback_company_logo"><svg><use xlink:href="/wp-content/themes/comfort/media/images/sprites/ui.svg#feedback_company_logo" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></i></a>
 						</div>
 					</div>
 				</div>
