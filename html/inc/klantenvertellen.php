@@ -10,6 +10,7 @@
 	function get_reviews(){
 		$transientname = "klantenvertellen_data";
 		$transient = get_transient($transientname);
+		//$transient = null; 
 		
 		if( ! empty( $transient ) ) {
     		$klantenvertellenData = $transient;

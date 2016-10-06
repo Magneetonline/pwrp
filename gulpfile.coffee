@@ -216,10 +216,6 @@ gulp.task 'rev', ['clear:dist'], ->
   gulp.src [
     "#{paths.css}**/*.css"
     "#{paths.js}**/*.js"
-    "#{paths.fonts}**/*.eot"
-    "#{paths.fonts}**/*.svg"
-    "#{paths.fonts}**/*.ttf"
-    "#{paths.fonts}**/*.woff"
     "#{paths.pswp}*.*"
   ], base: paths.docroot
   .pipe rev()

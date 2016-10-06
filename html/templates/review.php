@@ -47,11 +47,11 @@
 		</div>
 		<div class="large-push-3 large-6 columns">
 			<div class="row">
-				<div class="large-1 column">
+				<div class="large-1 small-2 column">
 					<p class="review--type">Bedrijf</p>
 					<p class="review--type">Reactie</p>
 				</div>
-				<div class="large-push-1 large-11 columns">
+				<div class="large-push-1 large-11 small-10 columns">
 					<p class="review--value"><?php echo get_content_by_attr($review->antwoord, "Voornaam:") ?> uit <?php echo get_content_by_attr($review->antwoord, "uit:") ?></p>
 					<p class="review--value"><?php echo get_content_by_attr($review->antwoord, "Positieve ervaring:") ?> <?php get_content_by_attr($review->antwoord, "Verbeterpunten/ tips:") ?></p>
 				</div>

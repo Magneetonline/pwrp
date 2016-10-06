@@ -49,6 +49,13 @@
 	margin-top:-3.7rem;
 	margin-left: -1.23rem;
 	width: calc(100% + 2.46rem);
+	
+	@media only screen and (max-width: 1100px) {
+		text-align: center;
+		& .column{
+			margin-bottom: 2rem;
+		}
+	}
 }
 
 .review--amount{
@@ -97,6 +104,9 @@
 		align-items:baseline;
 		align-content:center;
 		height: 3rem;
+		@media only screen and (max-width: 1100px) {
+			display: inline-block;	
+		}
 		
 		&--item{
 			padding-top: 2rem;
@@ -122,11 +132,18 @@
 	margin-top:rem(60px);
 	font-weight: bold;
 	color: #7A7A7A;
+	@media only screen and (max-width: 1100px) {
+		text-align: center;	
+	}
 }
 .review--pagination{
 	margin-top:rem(60px);
 	display: flex;
 	justify-content:flex-end;
+	@media only screen and (max-width: 1100px) {
+		justify-content: center;
+		margin-top: rem(10px);
+	}
 	
 	&__item a{
 		color: $main-color;
