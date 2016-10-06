@@ -5,6 +5,10 @@
 	align-items: center;
 	border-bottom: 4px solid $main-color;
 	
+	.page-id-224 &{
+		border-bottom: 0px;
+	}
+	
 	&__image{
 		@extend .page-header;
 		background-repeat: no-repeat;

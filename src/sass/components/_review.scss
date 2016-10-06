@@ -1,4 +1,5 @@
 .review-stars{
+	font-size: 1.5rem;
 	
 	& .fa-star{
 		color: $main-color;
@@ -11,4 +12,148 @@
 			margin-right: 0px;
 		}
 	}
+}
+
+& .review-bar{
+	/* footer */	
+	& .fa{
+		margin-left: 0.25rem;
+		font-size: 1.3rem;
+	}
+}
+
+& .review-total{
+	font-size: rem(100px);
+	line-height: rem(90px);
+	display: block;
+	position: relative;
+		
+	& span{
+		font-size: rem(35px);
+		position: absolute;
+		top: -18px
+	}	
+}
+
+.review-stars__centered{
+	text-align: center!important;
+	
+	& .review-total{
+		transform: translateX(-0.7rem)
+	}
+}
+
+.review--top{
+	background: #F5F3F3;
+	padding: 5rem 0rem;
+	margin-top:-3.7rem;
+	margin-left: -1.23rem;
+	width: calc(100% + 2.46rem);
+}
+
+.review--amount{
+	font-size: 1.7rem;
+	font-weight: bold;
+	color: $main-color;
+}
+
+.review__centered{
+	text-align: center;
+	color: $main-color;
+	
+	& a{
+		width: 100%;
+		display: inline-block;
+	}
+}
+
+.review--detail{
+	margin-top: 5rem;
+}
+
+.review--detail{
+	margin-bottom: rem(225px);
+	
+	.review--date{
+		font-weight: bold;
+		text-transform: uppercase;	
+	}
+	
+	.review--type{
+		color: $main-color;
+		font-weight: bold;
+	}
+	
+	.review--value{
+		font-size: 0.8rem;
+		margin-bottom: 1.5rem;
+	}
+	
+	.review-total{
+		color: $main-color;
+	}
+	.score-list{
+		display: flex;
+		align-items:baseline;
+		align-content:center;
+		height: 3rem;
+		
+		&--item{
+			padding-top: 2rem;
+			font-size: 0.8rem;
+			flex-grow: 1;
+			
+			&__total{
+				@extend .score-list--item;
+				font-weight: bold;
+			}
+			
+			&__recommend{
+				background: $main-color;
+				color: white;
+				padding: 0.5rem 1rem;
+				font-weight: bold;
+			}
+		}
+	}
+}
+
+.results{
+	margin-top:rem(60px);
+	font-weight: bold;
+	color: #7A7A7A;
+}
+.review--pagination{
+	margin-top:rem(60px);
+	display: flex;
+	justify-content:flex-end;
+	
+	&__item a{
+		color: $main-color;
+		padding: 0rem 0.5rem;
+		text-align: right;
+	}
+	
+	&__active a{
+		color: $main-color;
+		margin: 0rem 0.5rem;
+		text-align: right;
+		border-bottom: 1px solid $main-color;
+	}
+	
+	&__prev a{
+		color: $main-color;
+		margin: 0rem 0.5rem;
+		text-align: right;
+	}
+	
+	&__next a{
+		color: $main-color;
+		margin: 0rem 0.5rem;
+		text-align: right;
+	}
+}
+
+.bottom-results{
+	margin-top:rem(-220px);
 }

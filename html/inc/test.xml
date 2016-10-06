@@ -1,0 +1,540 @@
+<?xml version="1.0"?>
+<klantenvertellen>
+    <statistieken>
+        <gemiddelde>8,9</gemiddelde>
+        <aantalbeoordelingen>58</aantalbeoordelingen>
+        <percentageaanbeveling>100</percentageaanbeveling>
+        <gemiddelden>
+            <cijfer name="Totaal oordeel">8,8</cijfer>
+            <cijfer name="Deskundigheid">8,9</cijfer>
+            <cijfer name="Klantvriendelijkheid">9,1</cijfer>
+            <cijfer name="Betrokkenheid">8,6</cijfer>
+            <cijfer name="Afspraken nakomen">9,0</cijfer>
+            <cijfer name="Communicatie">8,8</cijfer>
+            <cijfer name="Advies">8,9</cijfer>
+        </gemiddelden>
+    </statistieken>
+    <resultaten>
+        <resultaat>
+            <id>2069767</id>
+            <antwoord name="datum">05-10-2016</antwoord>
+            <antwoord name="referentie">12434</antwoord>
+            <antwoord name="Voornaam:">
+                <![CDATA[Eddy 1]]>
+            </antwoord>
+            <antwoord name="uit:">
+                <![CDATA[Purmerend]]>
+            </antwoord>
+            <antwoord name="Aanbeveling:">
+                <![CDATA[ja]]>
+            </antwoord>
+            <antwoord name="Ik ben een:">
+                <![CDATA[zakelijke klant]]>
+            </antwoord>
+            <antwoord name="Contact met vestiging:">
+                <![CDATA[Uitgeester Notariaat ]]>
+            </antwoord>
+            <antwoord name="Ervaring met:">
+                <![CDATA[Bedrijf]]>
+            </antwoord>
+            <antwoord name="Positieve ervaring:">
+                <![CDATA[Zakelijk. Duidelijke toelichting. Pro actief. Zeer betrokken. Erg gastvrij.]]>
+            </antwoord>
+            <antwoord name="Verbeterpunten/ tips:">
+            <![CDATA[Locatie Purmerend?]]>
+        </antwoord>
+        <antwoord name="Totaal oordeel">9,0</antwoord>
+        <antwoord name="Deskundigheid">9,0</antwoord>
+        <antwoord name="Klantvriendelijkheid">10,0</antwoord>
+        <antwoord name="Betrokkenheid">9,0</antwoord>
+        <antwoord name="Afspraken nakomen">10,0</antwoord>
+        <antwoord name="Communicatie">10,0</antwoord>
+        <antwoord name="Advies">9,0</antwoord>
+        <antwoord name="Gemiddelde">9,4</antwoord>
+    </resultaat>
+    <resultaat>
+        <id>2067157</id>
+        <antwoord name="datum">03-10-2016</antwoord>
+        <antwoord name="referentie">12285</antwoord>
+        <antwoord name="Voornaam:">
+            <![CDATA[Jelle 2]]>
+        </antwoord>
+        <antwoord name="uit:">
+            <![CDATA[Uitgeest]]>
+        </antwoord>
+        <antwoord name="Aanbeveling:">
+            <![CDATA[ja]]>
+        </antwoord>
+        <antwoord name="Ik ben een:">
+            <![CDATA[particuliere klant]]>
+        </antwoord>
+        <antwoord name="Contact met vestiging:">
+            <![CDATA[Uitgeester Notariaat ]]>
+        </antwoord>
+        <antwoord name="Ervaring met:">
+            <![CDATA[Aankoop van een woning, Samenlevingscontract, Testament(en)]]>
+        </antwoord>
+        <antwoord name="Totaal oordeel">9,0</antwoord>
+        <antwoord name="Deskundigheid">9,0</antwoord>
+        <antwoord name="Klantvriendelijkheid">9,0</antwoord>
+        <antwoord name="Betrokkenheid">8,0</antwoord>
+        <antwoord name="Afspraken nakomen">10,0</antwoord>
+        <antwoord name="Communicatie">10,0</antwoord>
+        <antwoord name="Advies">n.v.t.</antwoord>
+        <antwoord name="Gemiddelde">9,2</antwoord>
+    </resultaat>
+    <resultaat>
+        <id>2065179</id>
+        <antwoord name="datum">01-10-2016</antwoord>
+        <antwoord name="referentie">12187</antwoord>
+        <antwoord name="Aanbeveling:">
+            <![CDATA[ja]]>
+        </antwoord>
+        <antwoord name="Ik ben een:">
+            <![CDATA[particuliere klant]]>
+        </antwoord>
+        <antwoord name="Contact met vestiging:">
+            <![CDATA[Uitgeester Notariaat ]]>
+        </antwoord>
+        <antwoord name="Ervaring met:">
+            <![CDATA[Aankoop van een woning, Hypotheek]]>
+        </antwoord>
+        <antwoord name="Positieve ervaring:">
+            <![CDATA[Goede service. Alles was prima in orde en er werd proactief met alle vragen/handelingen omgegaan. ]]>
+        </antwoord>
+        <antwoord name="Totaal oordeel">8,0</antwoord>
+        <antwoord name="Deskundigheid">9,0</antwoord>
+        <antwoord name="Klantvriendelijkheid">8,0</antwoord>
+        <antwoord name="Betrokkenheid">8,0</antwoord>
+        <antwoord name="Afspraken nakomen">9,0</antwoord>
+        <antwoord name="Communicatie">8,0</antwoord>
+        <antwoord name="Advies">7,0</antwoord>
+        <antwoord name="Gemiddelde">8,1</antwoord>
+    </resultaat>
+    <resultaat>
+        <id>2061993</id>
+        <antwoord name="datum">27-09-2016</antwoord>
+        <antwoord name="referentie">12289</antwoord>
+        <antwoord name="Voornaam:">
+            <![CDATA[Cherees2]]>
+        </antwoord>
+        <antwoord name="uit:">
+            <![CDATA[Heerhugowaard]]>
+        </antwoord>
+        <antwoord name="Aanbeveling:">
+            <![CDATA[ja]]>
+        </antwoord>
+        <antwoord name="Ik ben een:">
+            <![CDATA[particuliere klant]]>
+        </antwoord>
+        <antwoord name="Contact met vestiging:">
+            <![CDATA[Uitgeester Notariaat ]]>
+        </antwoord>
+        <antwoord name="Ervaring met:">
+            <![CDATA[Aankoop van een woning, Hypotheek, Samenlevingscontract]]>
+        </antwoord>
+        <antwoord name="Positieve ervaring:">
+            <![CDATA[Fijne dames die veel aandacht aan je besteden en snel en duidelijk zijn in de communicatie.]]>
+        </antwoord>
+        <antwoord name="Verbeterpunten/ tips:">
+        <![CDATA[Geen]]>
+    </antwoord>
+    <antwoord name="Totaal oordeel">9,0</antwoord>
+    <antwoord name="Deskundigheid">9,0</antwoord>
+    <antwoord name="Klantvriendelijkheid">9,0</antwoord>
+    <antwoord name="Betrokkenheid">9,0</antwoord>
+    <antwoord name="Afspraken nakomen">9,0</antwoord>
+    <antwoord name="Communicatie">9,0</antwoord>
+    <antwoord name="Advies">10,0</antwoord>
+    <antwoord name="Gemiddelde">9,1</antwoord>
+</resultaat>
+<resultaat>
+    <id>2060559</id>
+    <antwoord name="datum">27-09-2016</antwoord>
+    <antwoord name="referentie">12410</antwoord>
+    <antwoord name="Voornaam:">
+        <![CDATA[nick3]]>
+    </antwoord>
+    <antwoord name="uit:">
+        <![CDATA[amsterdam]]>
+    </antwoord>
+    <antwoord name="Aanbeveling:">
+        <![CDATA[ja]]>
+    </antwoord>
+    <antwoord name="Ik ben een:">
+        <![CDATA[particuliere klant]]>
+    </antwoord>
+    <antwoord name="Contact met vestiging:">
+        <![CDATA[Uitgeester Notariaat ]]>
+    </antwoord>
+    <antwoord name="Ervaring met:">
+        <![CDATA[Aankoop van een woning]]>
+    </antwoord>
+    <antwoord name="Positieve ervaring:">
+        <![CDATA[Ondanks gesteggel met de bank is alles op tijd rond gekomen. Dit mede dankzij de goede medewerking van de werknemers van het Notariaat.]]>
+    </antwoord>
+    <antwoord name="Verbeterpunten/ tips:">
+    <![CDATA[Geen..]]>
+</antwoord>
+<antwoord name="Totaal oordeel">10,0</antwoord>
+<antwoord name="Deskundigheid">10,0</antwoord>
+<antwoord name="Klantvriendelijkheid">10,0</antwoord>
+<antwoord name="Betrokkenheid">10,0</antwoord>
+<antwoord name="Afspraken nakomen">10,0</antwoord>
+<antwoord name="Communicatie">10,0</antwoord>
+<antwoord name="Advies">10,0</antwoord>
+<antwoord name="Gemiddelde">10,0</antwoord>
+</resultaat>
+<resultaat>
+    <id>2058293</id>
+    <antwoord name="datum">25-09-2016</antwoord>
+    <antwoord name="referentie">12399</antwoord>
+    <antwoord name="Voornaam:">
+        <![CDATA[Cees4]]>
+    </antwoord>
+    <antwoord name="uit:">
+        <![CDATA[Hoofddorp]]>
+    </antwoord>
+    <antwoord name="Aanbeveling:">
+        <![CDATA[ja]]>
+    </antwoord>
+    <antwoord name="Ik ben een:">
+        <![CDATA[particuliere klant]]>
+    </antwoord>
+    <antwoord name="Contact met vestiging:">
+        <![CDATA[Uitgeester Notariaat ]]>
+    </antwoord>
+    <antwoord name="Ervaring met:">
+        <![CDATA[Hypotheek]]>
+    </antwoord>
+    <antwoord name="Positieve ervaring:">
+        <![CDATA[Prima begeleiding, deskundige en vriendelijke mensen. Geven prima advies.]]>
+    </antwoord>
+    <antwoord name="Verbeterpunten/ tips:">
+    <![CDATA[Geen.]]>
+</antwoord>
+<antwoord name="Totaal oordeel">9,0</antwoord>
+<antwoord name="Deskundigheid">10,0</antwoord>
+<antwoord name="Klantvriendelijkheid">10,0</antwoord>
+<antwoord name="Betrokkenheid">10,0</antwoord>
+<antwoord name="Afspraken nakomen">10,0</antwoord>
+<antwoord name="Communicatie">10,0</antwoord>
+<antwoord name="Advies">9,0</antwoord>
+<antwoord name="Gemiddelde">9,7</antwoord>
+</resultaat>
+<resultaat>
+    <id>2049015</id>
+    <antwoord name="datum">15-09-2016</antwoord>
+    <antwoord name="referentie">12195</antwoord>
+    <antwoord name="Voornaam:">
+        <![CDATA[simon5]]>
+    </antwoord>
+    <antwoord name="uit:">
+        <![CDATA[putten]]>
+    </antwoord>
+    <antwoord name="Aanbeveling:">
+        <![CDATA[ja]]>
+    </antwoord>
+    <antwoord name="Ik ben een:">
+        <![CDATA[particuliere klant]]>
+    </antwoord>
+    <antwoord name="Contact met vestiging:">
+        <![CDATA[Uitgeester Notariaat ]]>
+    </antwoord>
+    <antwoord name="Ervaring met:">
+        <![CDATA[Aankoop van een woning]]>
+    </antwoord>
+    <antwoord name="Positieve ervaring:">
+        <![CDATA[vlotte correcte afhandeling ]]>
+    </antwoord>
+    <antwoord name="Totaal oordeel">10,0</antwoord>
+    <antwoord name="Deskundigheid">10,0</antwoord>
+    <antwoord name="Klantvriendelijkheid">10,0</antwoord>
+    <antwoord name="Betrokkenheid">10,0</antwoord>
+    <antwoord name="Afspraken nakomen">10,0</antwoord>
+    <antwoord name="Communicatie">10,0</antwoord>
+    <antwoord name="Advies">10,0</antwoord>
+    <antwoord name="Gemiddelde">10,0</antwoord>
+</resultaat>
+<resultaat>
+    <id>2048575</id>
+    <antwoord name="datum">15-09-2016</antwoord>
+    <antwoord name="referentie">12114</antwoord>
+    <antwoord name="Voornaam:">
+        <![CDATA[Rasoula6]]>
+    </antwoord>
+    <antwoord name="uit:">
+        <![CDATA[Assendelft]]>
+    </antwoord>
+    <antwoord name="Aanbeveling:">
+        <![CDATA[ja]]>
+    </antwoord>
+    <antwoord name="Ik ben een:">
+        <![CDATA[particuliere klant]]>
+    </antwoord>
+    <antwoord name="Contact met vestiging:">
+        <![CDATA[Uitgeester Notariaat ]]>
+    </antwoord>
+    <antwoord name="Ervaring met:">
+        <![CDATA[Aankoop van een woning, Hypotheek, Samenlevingscontract, Testament(en)]]>
+    </antwoord>
+    <antwoord name="Positieve ervaring:">
+        <![CDATA[Goed advies en uitleg<br />
+        Fijne mensen ]]>
+    </antwoord>
+    <antwoord name="Verbeterpunten/ tips:">
+    <![CDATA[Ontvangst. Balie/receptie? ]]>
+</antwoord>
+<antwoord name="Totaal oordeel">9,0</antwoord>
+<antwoord name="Deskundigheid">10,0</antwoord>
+<antwoord name="Klantvriendelijkheid">7,0</antwoord>
+<antwoord name="Betrokkenheid">8,0</antwoord>
+<antwoord name="Afspraken nakomen">10,0</antwoord>
+<antwoord name="Communicatie">8,0</antwoord>
+<antwoord name="Advies">10,0</antwoord>
+<antwoord name="Gemiddelde">8,9</antwoord>
+</resultaat>
+<resultaat>
+    <id>2006775</id>
+    <antwoord name="datum">17-08-2016</antwoord>
+    <antwoord name="referentie"/>
+    <antwoord name="Voornaam:">
+        <![CDATA[Jan7]]>
+    </antwoord>
+    <antwoord name="uit:">
+        <![CDATA[Uitgeest]]>
+    </antwoord>
+    <antwoord name="Aanbeveling:">
+        <![CDATA[ja]]>
+    </antwoord>
+    <antwoord name="Ik ben een:">
+        <![CDATA[particuliere klant]]>
+    </antwoord>
+    <antwoord name="Contact met vestiging:">
+        <![CDATA[Uitgeester Notariaat ]]>
+    </antwoord>
+    <antwoord name="Ervaring met:">
+        <![CDATA[Verklaring van erfrecht]]>
+    </antwoord>
+    <antwoord name="Positieve ervaring:">
+        <![CDATA[Zeer klantvriendelijk, nam echt de tijd voor ons.]]>
+    </antwoord>
+    <antwoord name="Verbeterpunten/ tips:">
+    <![CDATA[Zorgvuldigheid bij opstellen van verklaring. Door een fout in de overlijdensdatum konden de bankrekeningen niet vrij gegeven worden en moest de aanvraag opnieuw gedaan worden.]]>
+</antwoord>
+<antwoord name="Totaal oordeel">7,0</antwoord>
+<antwoord name="Deskundigheid">6,0</antwoord>
+<antwoord name="Klantvriendelijkheid">8,0</antwoord>
+<antwoord name="Betrokkenheid">7,0</antwoord>
+<antwoord name="Afspraken nakomen">7,0</antwoord>
+<antwoord name="Communicatie">7,0</antwoord>
+<antwoord name="Advies">7,0</antwoord>
+<antwoord name="Gemiddelde">7,0</antwoord>
+</resultaat>
+<resultaat>
+    <id>1992385</id>
+    <antwoord name="datum">02-08-2016</antwoord>
+    <antwoord name="referentie">12250</antwoord>
+    <antwoord name="Voornaam:">
+        <![CDATA[Oskar8]]>
+    </antwoord>
+    <antwoord name="uit:">
+        <![CDATA[Haarlem]]>
+    </antwoord>
+    <antwoord name="Aanbeveling:">
+        <![CDATA[ja]]>
+    </antwoord>
+    <antwoord name="Ik ben een:">
+        <![CDATA[particuliere klant]]>
+    </antwoord>
+    <antwoord name="Contact met vestiging:">
+        <![CDATA[Uitgeester Notariaat ]]>
+    </antwoord>
+    <antwoord name="Ervaring met:">
+        <![CDATA[Aankoop van een woning, Hypotheek, Samenlevingscontract, Testament(en)]]>
+    </antwoord>
+    <antwoord name="Positieve ervaring:">
+        <![CDATA[De notaris is erg betrokken, vriendelijk en meedenkend. ]]>
+    </antwoord>
+    <antwoord name="Totaal oordeel">8,0</antwoord>
+    <antwoord name="Deskundigheid">8,0</antwoord>
+    <antwoord name="Klantvriendelijkheid">8,0</antwoord>
+    <antwoord name="Betrokkenheid">8,0</antwoord>
+    <antwoord name="Afspraken nakomen">8,0</antwoord>
+    <antwoord name="Communicatie">8,0</antwoord>
+    <antwoord name="Advies">8,0</antwoord>
+    <antwoord name="Gemiddelde">8,0</antwoord>
+</resultaat>
+        <resultaat>
+            <id>2069767</id>
+            <antwoord name="datum">05-10-2016</antwoord>
+            <antwoord name="referentie">12434</antwoord>
+            <antwoord name="Voornaam:">
+                <![CDATA[Eddy9]]>
+            </antwoord>
+            <antwoord name="uit:">
+                <![CDATA[Purmerend]]>
+            </antwoord>
+            <antwoord name="Aanbeveling:">
+                <![CDATA[ja]]>
+            </antwoord>
+            <antwoord name="Ik ben een:">
+                <![CDATA[zakelijke klant]]>
+            </antwoord>
+            <antwoord name="Contact met vestiging:">
+                <![CDATA[Uitgeester Notariaat ]]>
+            </antwoord>
+            <antwoord name="Ervaring met:">
+                <![CDATA[Bedrijf]]>
+            </antwoord>
+            <antwoord name="Positieve ervaring:">
+                <![CDATA[Zakelijk. Duidelijke toelichting. Pro actief. Zeer betrokken. Erg gastvrij.]]>
+            </antwoord>
+            <antwoord name="Verbeterpunten/ tips:">
+            <![CDATA[Locatie Purmerend?]]>
+        </antwoord>
+        <antwoord name="Totaal oordeel">9,0</antwoord>
+        <antwoord name="Deskundigheid">9,0</antwoord>
+        <antwoord name="Klantvriendelijkheid">10,0</antwoord>
+        <antwoord name="Betrokkenheid">9,0</antwoord>
+        <antwoord name="Afspraken nakomen">10,0</antwoord>
+        <antwoord name="Communicatie">10,0</antwoord>
+        <antwoord name="Advies">9,0</antwoord>
+        <antwoord name="Gemiddelde">9,4</antwoord>
+    </resultaat>
+    <resultaat>
+        <id>2067157</id>
+        <antwoord name="datum">03-10-2016</antwoord>
+        <antwoord name="referentie">12285</antwoord>
+        <antwoord name="Voornaam:">
+            <![CDATA[Jelle10]]>
+        </antwoord>
+        <antwoord name="uit:">
+            <![CDATA[Uitgeest]]>
+        </antwoord>
+        <antwoord name="Aanbeveling:">
+            <![CDATA[ja]]>
+        </antwoord>
+        <antwoord name="Ik ben een:">
+            <![CDATA[particuliere klant]]>
+        </antwoord>
+        <antwoord name="Contact met vestiging:">
+            <![CDATA[Uitgeester Notariaat ]]>
+        </antwoord>
+        <antwoord name="Ervaring met:">
+            <![CDATA[Aankoop van een woning, Samenlevingscontract, Testament(en)]]>
+        </antwoord>
+        <antwoord name="Totaal oordeel">9,0</antwoord>
+        <antwoord name="Deskundigheid">9,0</antwoord>
+        <antwoord name="Klantvriendelijkheid">9,0</antwoord>
+        <antwoord name="Betrokkenheid">8,0</antwoord>
+        <antwoord name="Afspraken nakomen">10,0</antwoord>
+        <antwoord name="Communicatie">10,0</antwoord>
+        <antwoord name="Advies">n.v.t.</antwoord>
+        <antwoord name="Gemiddelde">9,2</antwoord>
+    </resultaat>
+    <resultaat>
+        <id>2065179</id>
+        <antwoord name="datum">01-10-2016</antwoord>
+        <antwoord name="referentie">12187</antwoord>
+        <antwoord name="Aanbeveling:">
+            <![CDATA[ja]]>
+        </antwoord>
+        <antwoord name="Ik ben een:">
+            <![CDATA[particuliere klant]]>
+        </antwoord>
+        <antwoord name="Contact met vestiging:">
+            <![CDATA[Uitgeester Notariaat ]]>
+        </antwoord>
+        <antwoord name="Ervaring met:">
+            <![CDATA[Aankoop van een woning, Hypotheek]]>
+        </antwoord>
+        <antwoord name="Positieve ervaring:">
+            <![CDATA[Goede service. Alles was prima in orde en er werd proactief met alle vragen/handelingen omgegaan. ]]>
+        </antwoord>
+        <antwoord name="Totaal oordeel">8,0</antwoord>
+        <antwoord name="Deskundigheid">9,0</antwoord>
+        <antwoord name="Klantvriendelijkheid">8,0</antwoord>
+        <antwoord name="Betrokkenheid">8,0</antwoord>
+        <antwoord name="Afspraken nakomen">9,0</antwoord>
+        <antwoord name="Communicatie">8,0</antwoord>
+        <antwoord name="Advies">7,0</antwoord>
+        <antwoord name="Gemiddelde">8,1</antwoord>
+    </resultaat>
+    <resultaat>
+        <id>2061993</id>
+        <antwoord name="datum">27-09-2016</antwoord>
+        <antwoord name="referentie">12289</antwoord>
+        <antwoord name="Voornaam:">
+            <![CDATA[Cherees]]>
+        </antwoord>
+        <antwoord name="uit:">
+            <![CDATA[Heerhugowaard]]>
+        </antwoord>
+        <antwoord name="Aanbeveling:">
+            <![CDATA[ja]]>
+        </antwoord>
+        <antwoord name="Ik ben een:">
+            <![CDATA[particuliere klant]]>
+        </antwoord>
+        <antwoord name="Contact met vestiging:">
+            <![CDATA[Uitgeester Notariaat ]]>
+        </antwoord>
+        <antwoord name="Ervaring met:">
+            <![CDATA[Aankoop van een woning, Hypotheek, Samenlevingscontract]]>
+        </antwoord>
+        <antwoord name="Positieve ervaring:">
+            <![CDATA[Fijne dames die veel aandacht aan je besteden en snel en duidelijk zijn in de communicatie.]]>
+        </antwoord>
+        <antwoord name="Verbeterpunten/ tips:">
+        <![CDATA[Geen]]>
+    </antwoord>
+    <antwoord name="Totaal oordeel">9,0</antwoord>
+    <antwoord name="Deskundigheid">9,0</antwoord>
+    <antwoord name="Klantvriendelijkheid">9,0</antwoord>
+    <antwoord name="Betrokkenheid">9,0</antwoord>
+    <antwoord name="Afspraken nakomen">9,0</antwoord>
+    <antwoord name="Communicatie">9,0</antwoord>
+    <antwoord name="Advies">10,0</antwoord>
+    <antwoord name="Gemiddelde">9,1</antwoord>
+</resultaat>
+<resultaat>
+    <id>2060559</id>
+    <antwoord name="datum">27-09-2016</antwoord>
+    <antwoord name="referentie">12410</antwoord>
+    <antwoord name="Voornaam:">
+        <![CDATA[nick]]>
+    </antwoord>
+    <antwoord name="uit:">
+        <![CDATA[amsterdam]]>
+    </antwoord>
+    <antwoord name="Aanbeveling:">
+        <![CDATA[ja]]>
+    </antwoord>
+    <antwoord name="Ik ben een:">
+        <![CDATA[particuliere klant]]>
+    </antwoord>
+    <antwoord name="Contact met vestiging:">
+        <![CDATA[Uitgeester Notariaat ]]>
+    </antwoord>
+    <antwoord name="Ervaring met:">
+        <![CDATA[Aankoop van een woning]]>
+    </antwoord>
+    <antwoord name="Positieve ervaring:">
+        <![CDATA[Ondanks gesteggel met de bank is alles op tijd rond gekomen. Dit mede dankzij de goede medewerking van de werknemers van het Notariaat.]]>
+    </antwoord>
+    <antwoord name="Verbeterpunten/ tips:">
+    <![CDATA[Geen..]]>
+</antwoord>
+<antwoord name="Totaal oordeel">10,0</antwoord>
+<antwoord name="Deskundigheid">10,0</antwoord>
+<antwoord name="Klantvriendelijkheid">10,0</antwoord>
+<antwoord name="Betrokkenheid">10,0</antwoord>
+<antwoord name="Afspraken nakomen">10,0</antwoord>
+<antwoord name="Communicatie">10,0</antwoord>
+<antwoord name="Advies">10,0</antwoord>
+<antwoord name="Gemiddelde">10,0</antwoord>
+</resultaat>
+</resultaten>
+</klantenvertellen>
+

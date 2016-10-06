@@ -11,7 +11,7 @@
 	& .header-text{
 		color: $main-color;
 		font-size: rem(22px);
-		line-height: 1;
+		line-height: 5;
 		display: inline-block;
 		text-align: right;
 		@media only screen and (max-width: 1100px) {
@@ -19,6 +19,7 @@
 			text-align: center;
 			display: block;
 			margin-top: 1rem;
+			line-height: 1;
 		}
 		
 		& p{
@@ -40,13 +41,13 @@
 		background: #F5F3F4;
 		color:$color-accent;
 		
-		
-		& .fa{
-			color: lighten($color-accent, 20%);
+		& a{
+			color:inherit; 	
 		}
 		
-		& span .fa{
+		& .fa{
 			color: $main-color;
+			margin-left: 0.2rem;
 		}
 		
 		& p{

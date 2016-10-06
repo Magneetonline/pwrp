@@ -1,0 +1,12 @@
+.post{
+	
+	&--title{
+		font-size: 2rem;
+	}
+	
+	&--date{
+		font-size: 1rem;
+		font-weight: normal;
+		color: $main-color;
+	}
+}
