@@ -21,7 +21,7 @@
 	@include animateIt(200ms);
 	position: absolute;
 	width: calc(100% - 0.8rem);
-	height: calc(100% - 0.9375rem);
+	height: calc(100% - 3.5rem);
 	background: $main-color;
 	color: white;
 	z-index: 1000000;
@@ -31,6 +31,8 @@
 	text-align: center;
 	opacity: 0;
 	display: block;
+	font-weight: 800;
+	font-size: rem(16px);
 	
 	.vastgoed--home:last-child &{
 		width: calc(100% - 0.3rem);
@@ -86,6 +88,7 @@
 		font-weight: 100;
 		font-style: italic;
 		margin-bottom: 0px;
+		font-size: rem(16px);
 	}
 	
 	&__title{
@@ -93,7 +96,7 @@
 		white-space: nowrap;
 		overflow: hidden;
 		text-overflow: ellipsis;
-		font-size: 1rem;
+		font-size: rem(18px);
 		
 		& a{
 			color: #575756;
