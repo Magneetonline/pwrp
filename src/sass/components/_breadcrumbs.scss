@@ -1,6 +1,10 @@
 #breadcrumbs{
-	margin: rem(20px) rem(0px);
+	margin: rem(20px) rem(0px) rem(50px) rem(0px);
 	font-size: 12px;
+	
+	*{
+		color: #575656!important;
+	}
 	
 	.home &{
 		opacity: 0;
