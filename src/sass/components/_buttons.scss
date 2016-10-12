@@ -5,6 +5,12 @@
 	padding: 0.5rem 2rem;
 	color: white;
 	margin-top: 1rem;
+	font-size: rem(16px);
+	font-weight: bold;
+	
+	.textwidget &{
+		font-size: rem(18px);
+	}
 	
 	&:hover{
 		background: $main-color;
