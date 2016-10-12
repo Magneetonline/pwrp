@@ -8,14 +8,15 @@
 }
 
 .iphorm-elements .iphorm-submit-wrap .iphorm-submit-element{
-	background: $color-accent!important;
+	background: $main-color!important;
+	border: 0px solid!important;
 	
 	& span{
-		background: $color-accent!important;
+		background: $main-color!important;
 	}
 	
 	& em{
-		background: $color-accent!important;
+		background: $main-color!important;
 		color: white;
 	}
 }
@@ -23,4 +24,9 @@
 .iphorm-element-wrap-text.iphorm-labels-inside > .iphorm-element-spacer > label, .iphorm-element-wrap-textarea.iphorm-labels-inside > .iphorm-element-spacer > label, .iphorm-element-wrap-password.iphorm-labels-inside > .iphorm-element-spacer > label, .iphorm-element-wrap-captcha.iphorm-labels-inside > .iphorm-element-spacer > label{
 	margin-left: 15px!important;
 	margin-top: 11px!important;
+}
+
+.iphorm-submit-input-wrap {
+    float: right!important;
+    margin-right: 50px!important;
 }

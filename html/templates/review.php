@@ -9,7 +9,7 @@
 			<span class="review-stars"><?php echo klantenvertellen_stars() ?></span>
 		</div>
 		<div class="large-push-1 large-3 column review__centered">
-			<a href="/"><i class="m-icon icon--ui__feedback_company_logo"><svg><use xlink:href="/wp-content/themes/comfort/media/images/sprites/ui.svg#feedback_company_logo" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></i></a>
+			<i class="m-icon icon--ui__klanten_vertellen_logo"><svg><use xlink:href="/wp-content/themes/comfort/media/images/sprites/ui.svg#klanten_vertellen_logo" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></i>
 		</div>
 	</div>
 </div>

@@ -1,6 +1,10 @@
 #breadcrumbs{
 	margin: rem(20px) rem(0px);
 	font-size: 12px;
+	
+	.home &{
+		opacity: 0;
+	}
 
 	& .breadcrumb_last{
 		font-style: italic;

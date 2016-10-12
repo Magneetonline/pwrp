@@ -12,6 +12,7 @@
 						<?php get_template_part('gallery') ?>
 					</header>
 					<?php the_content(); ?>	
+					<a class="btn btn__primary btn__bold" href="/contact">DIRECT CONTACT</a>
 				</article>		
 			</main>
 			<aside class="main-sidebar">

@@ -6,7 +6,8 @@
 					</div>
 					<?php endif; ?>
 				<?php get_template_part('gallery') ?>
-				<?php the_content(); ?>			
+				<?php the_content(); ?>		
+				<a class="btn btn__primary btn__bold" href="/contact">DIRECT CONTACT</a>	
 			</main>
 			<aside class="main-sidebar">
 				<?php if ( is_active_sidebar( 'sidebar' ) ) : ?>

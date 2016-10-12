@@ -6,6 +6,7 @@
 					</div>
 					<?php endif; ?>
 				<?php the_content(); ?>
+				<a class="btn btn__primary btn__bold" href="/contact">DIRECT CONTACT</a>
 				<ul class="post--description__list">
 					<?php foreach (get_field('extra_informatie') as $info){
 						?>
