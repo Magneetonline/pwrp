@@ -18,17 +18,21 @@
 			width:  300px!important;
 		}
 		
-		& .textwidget p {
-			margin-bottom: rem(15px);
-			font-weight: 400;
-			color: #afafaf;
-			
-			& a{
-				color: #afafaf
-			}
-			
-			& span{
-				font-weight: 800;
+		& .textwidget {
+		
+			& p {
+				margin-bottom: rem(15px);
+				font-weight: 400;
+				color: #afafaf;
+				font-size: rem(16px);
+				
+				& a{
+					color: #afafaf
+				}
+				
+				& span{
+					font-weight: 800;
+				}
 			}
 		}
 	}
