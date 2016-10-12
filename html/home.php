@@ -3,7 +3,7 @@
 	get_template_part('templates/post/head', 'archive' );
 		
 	if ( function_exists('yoast_breadcrumb') ) {
-		yoast_breadcrumb('<div class="container"><p id="breadcrumbs">U bent hier: ','</p></div>');
+		yoast_breadcrumb('<div class="container"><p id="breadcrumbs">','</p></div>');
 	}
 	$count = 0;
 	?>

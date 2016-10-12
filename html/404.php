@@ -5,7 +5,7 @@
 				</div>
 			</section>
 		<?php if ( function_exists('yoast_breadcrumb') ) {
-			yoast_breadcrumb('<div class="container"><p id="breadcrumbs">U bent hier: ','</p></div>');
+			yoast_breadcrumb('<div class="container"><p id="breadcrumbs">','</p></div>');
 		} ?>
 		<div class="container">
 			<h3>De opgevraagde pagina is niet gevonden</h3>

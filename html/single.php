@@ -11,7 +11,7 @@
 		}
 		
 		if ( function_exists('yoast_breadcrumb') ) {
-			yoast_breadcrumb('<div class="container"><p id="breadcrumbs">U bent hier: ','</p></div>');
+			yoast_breadcrumb('<div class="container"><p id="breadcrumbs">','</p></div>');
 		}
 		
 		if(get_field('enable_sidebar') == true){
