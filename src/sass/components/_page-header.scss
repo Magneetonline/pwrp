@@ -20,9 +20,9 @@
 		display: inline-block;
 		padding: rem(10px) rem(20px) rem(10px) rem(20px);
 		color: white;
-		text-transform: uppercase;
-		font-size: 1.5rem;
+		font-size: 2rem;
 		margin-left: rem(100px);
+		font-weight: 400;
 		/* mix-blend-mode: darken; /* test for better background */
 		box-shadow: 0 15px 35px rgba(0, 0, 0, .1), 0 3px 10px rgba(0, 0, 0, .07);
 		@media only screen and (max-width: 1100px) {margin:rem(60px) rem(20px) rem(40px) rem(20px);}
