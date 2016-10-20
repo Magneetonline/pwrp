@@ -1,0 +1,22 @@
+.pagination{
+	
+	& * {
+		text-align: center;
+	}
+	
+	.page-numbers{
+		color: black;
+		display: inline-block;
+		height: rem(27px);
+		width: rem(27px);
+		text-align: center;
+		line-height: rem(27px);
+		font-size: rem(18px);
+		margin: 0 0.25rem;
+		
+		&.current{
+			background: $main-color;
+			color: white;
+		}
+	}
+}

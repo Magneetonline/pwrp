@@ -25,5 +25,16 @@
 			echo '</div>';
 		} 
 		?>
+		<div class="pagination row">
+			<div class="twelve columns">
+			<?php
+				$args = array(
+									'prev_next'          => false,
+									'type'               => 'plain'
+								);
+				echo paginate_links($args);
+			?>
+			</div>
+		</div>
 	<?php
 	get_footer(); ?>
