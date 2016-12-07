@@ -34,7 +34,7 @@
 					    </div>
 					    <div class="large-7 columns__right" style="text-align: right;">
 						    <span class="header-text">
-							    <p><strong>Vragen of advies?</strong>  Bel 0522 - 820991  &nbsp;<i class="fa fa-whatsapp" aria-hidden="true"></i>&nbsp; 06 - 27311884</p>
+							    <p><strong>Vragen of advies?</strong>  Bel <a href="whatsapp://">0522 - 820991</a>  &nbsp;<a href="tel:+31627311884"><i class="fa fa-whatsapp" aria-hidden="true"></i>&nbsp; 06 - 27311884</a></p>
 						    </span>
 					    </div>
 				    </div>

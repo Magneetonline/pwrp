@@ -26,6 +26,14 @@
 		
 		& p{
 			margin-bottom: 0rem;
+			
+			& a{
+				color: $main-color;
+				
+				&:hover{
+					border-bottom: 1px solid $main-color;
+				}
+			}
 		}
 	}
 	
