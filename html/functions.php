@@ -55,6 +55,51 @@ function hook_css() {
 		}
 	}
 }
+add_image_size("magneet_blog_img", 1024, 683, true);
+function blogs_func( $atts ) {
+    $html = "<div class=\"wpb_column vc_column_container vc_col-sm-12\">
+   <div class=\"vc_column-inner \">
+      <div class=\"wpb_wrapper\">
+         <div class=\"vc_row wpb_row vc_inner vc_row-fluid\">";
+    
+    $loop = new WP_Query('showposts=3&orderby=ID&order=DESC');
+    if($loop->have_posts()): while($loop->have_posts()): $loop->the_post();
+    //die(var_dump(   the_post_thumbnail('1024x683')   ));     
+    	$html .= "<div class=\"wpb_column vc_column_container vc_col-sm-4\">
+               <div class=\"vc_column-inner \">
+                  <div class=\"wpb_wrapper\">
+                     <div class=\"wpb_text_column wpb_content_element \">
+                        <div class=\"wpb_wrapper\">
+                           <h4><span style=\"color: #575656;\"><strong>". get_the_title()."</strong></span></h4>
+                        </div>
+                     </div>
+                     <div class=\"wpb_single_image wpb_content_element vc_align_center\">
+                        ".get_the_post_thumbnail(get_the_ID(), 'magneet_blog_img')."
+                     </div>
+                     <div class=\"wpb_text_column wpb_content_element \">
+                        <div class=\"wpb_wrapper\">
+                           <h6>".get_the_date()."</h6>
+                           <p><span style=\"color: #575656;\">".get_the_excerpt()."</span><br>
+                               <a href=\"".get_the_permalink()."\"><span style=\"color: #575656;\">&gt;&gt; Lees meer </span></a>
+                           </p>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>";
+    endwhile; else:
+    	$html .= "No recent posts yet!";
+    endif;
+    
+    $html .= "         </div>
+      </div>
+   </div>
+</div>";
+
+    return "$html";
+}
+add_shortcode( 'get_blogs', 'blogs_func' );
+
 function add_theme_scripts() {
 	$rev_files = array_reverse(json_decode(file_get_contents(get_template_directory()."/dist/rev-manifest.json"), true));
 	foreach($rev_files as $key => $item){
