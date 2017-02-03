@@ -38,7 +38,7 @@ add_action('acf/register_fields', 'sem_register_acf_fields');
 
 if($_SERVER['HTTP_HOST'] != "comfort.sem" AND $_SERVER['HTTP_HOST'] != "comfort.magneet.it"){
 	define( 'ACF_LITE', true );
-	die("Live ACF word ingeladen. Zet dit uit bij live gang in themes/stamco/inc/custom-fields.php:39");
+	die("Live ACF word ingeladen. Zet dit uit bij live gang in ".__FILE__.":".__LINE__."");
 	if(function_exists("register_field_group")){
 		register_field_group(array (
 			'id' => 'acf_header-opties',
