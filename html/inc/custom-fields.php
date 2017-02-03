@@ -38,7 +38,7 @@ add_action('acf/register_fields', 'sem_register_acf_fields');
 
 if($_SERVER['HTTP_HOST'] != "comfort.sem" AND $_SERVER['HTTP_HOST'] != "comfort.magneet.it"){
 	define( 'ACF_LITE', true );
-	die("Live ACF word ingeladen. Zet dit uit bij live gang in ".__FILE__.":".__LINE__."");
+	//die("Live ACF word ingeladen. Zet dit uit bij live gang in ".__FILE__.":".__LINE__."");
 	if(function_exists("register_field_group")){
 		register_field_group(array (
 			'id' => 'acf_header-opties',
@@ -165,7 +165,7 @@ if($_SERVER['HTTP_HOST'] != "comfort.sem" AND $_SERVER['HTTP_HOST'] != "comfort.
 					array (
 						'param' => 'post_type',
 						'operator' => '==',
-						'value' => 'vastgoedaanbod',
+						'value' => 'projecten',
 						'order_no' => 0,
 						'group_no' => 2,
 					),
@@ -216,7 +216,7 @@ if($_SERVER['HTTP_HOST'] != "comfort.sem" AND $_SERVER['HTTP_HOST'] != "comfort.
 					array (
 						'param' => 'post_type',
 						'operator' => '==',
-						'value' => 'vastgoedaanbod',
+						'value' => 'projecten',
 						'order_no' => 0,
 						'group_no' => 2,
 					),
@@ -231,66 +231,9 @@ if($_SERVER['HTTP_HOST'] != "comfort.sem" AND $_SERVER['HTTP_HOST'] != "comfort.
 			'menu_order' => 0,
 		));
 		register_field_group(array (
-			'id' => 'acf_vastgoed',
-			'title' => 'Vastgoed',
+			'id' => 'acf_projecten',
+			'title' => 'Projecten',
 			'fields' => array (
-				array (
-					'key' => 'field_57b58d7e44f5f',
-					'label' => 'Extra informatie',
-					'name' => 'extra_informatie',
-					'type' => 'repeater',
-					'instructions' => 'Vul hier de extra informatie in! ',
-					'sub_fields' => array (
-						array (
-							'key' => 'field_57b58db044f60',
-							'label' => 'titel',
-							'name' => 'titel',
-							'type' => 'text',
-							'instructions' => 'De titel',
-							'required' => 1,
-							'column_width' => '',
-							'default_value' => '',
-							'placeholder' => '',
-							'prepend' => '',
-							'append' => '',
-							'formatting' => 'html',
-							'maxlength' => '',
-						),
-						array (
-							'key' => 'field_57b58dc444f61',
-							'label' => 'Info',
-							'name' => 'info',
-							'type' => 'text',
-							'instructions' => 'De informatie',
-							'required' => 1,
-							'column_width' => '',
-							'default_value' => '',
-							'placeholder' => '',
-							'prepend' => '',
-							'append' => '',
-							'formatting' => 'html',
-							'maxlength' => '',
-						),
-					),
-					'row_min' => '',
-					'row_limit' => '',
-					'layout' => 'table',
-					'button_label' => 'Voeg toe',
-				),
-				array (
-					'key' => 'field_57b58df644f62',
-					'label' => 'Card informatie',
-					'name' => 'card_informatie',
-					'type' => 'text',
-					'instructions' => 'Dit is de extra informatie regel voor een overzichtspagina',
-					'required' => 1,
-					'default_value' => '360 m<sup>2<sup>',
-					'placeholder' => '',
-					'prepend' => '',
-					'append' => '',
-					'formatting' => 'html',
-					'maxlength' => '',
-				),
 				array (
 					'key' => 'field_57b5a9cf2afa5',
 					'label' => 'Subtitle',
@@ -309,7 +252,7 @@ if($_SERVER['HTTP_HOST'] != "comfort.sem" AND $_SERVER['HTTP_HOST'] != "comfort.
 					array (
 						'param' => 'post_type',
 						'operator' => '==',
-						'value' => 'vastgoedaanbod',
+						'value' => 'projecten',
 						'order_no' => 0,
 						'group_no' => 0,
 					),
@@ -360,7 +303,7 @@ if($_SERVER['HTTP_HOST'] != "comfort.sem" AND $_SERVER['HTTP_HOST'] != "comfort.
 					array (
 						'param' => 'post_type',
 						'operator' => '==',
-						'value' => 'vastgoedaanbod',
+						'value' => 'projecten',
 						'order_no' => 0,
 						'group_no' => 2,
 					),
@@ -375,4 +318,5 @@ if($_SERVER['HTTP_HOST'] != "comfort.sem" AND $_SERVER['HTTP_HOST'] != "comfort.
 			'menu_order' => 1,
 		));
 	}
+
 }
