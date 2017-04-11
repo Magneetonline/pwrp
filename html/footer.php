@@ -33,7 +33,7 @@
 						</div>
 						<div class="large-3 large-push-1 columns">
 							<p>Plaats hier uw reactie</p>
-							<a class="footer-btn" href="/reviews/">Plaats een review</a>
+							<a class="footer-btn" href="https://www.klantenvertellen.nl/enquete/comfort_bouwer" target="_blank">Plaats een review</a>
 						</div>
 						<div class="large-3 large-push-1 columns">
 							<a href="/reviews"><i class="m-icon icon--ui__klanten_vertellen_logo_light"><svg><use xlink:href="/wp-content/themes/comfort/media/images/sprites/ui.svg#klanten_vertellen_logo_light" xmlns:xlink="http://www.w3.org/1999/xlink"></use></svg></i></a>

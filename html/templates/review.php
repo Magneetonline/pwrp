@@ -2,7 +2,7 @@
 	<div class="row">
 		<div class="large-push-1 large-4 column">
 			<p class="review--amount">Klantenbeoordelingen (<?php echo klantenvertellen_total() ?>)</p>
-			<a class="btn btn__primary">PLAATS EEN REVIEW</a>
+			<a href="https://www.klantenvertellen.nl/enquete/comfort_bouwer" target="_blank" class="btn btn__primary">PLAATS EEN REVIEW</a>
 		</div>
 		<div class="large-push-1 large-3 column review__centered">
 			<span class="review-total"><?php echo klantenvertellen_cijfer(true) ?></span><br>
