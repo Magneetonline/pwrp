@@ -36,6 +36,7 @@ $(".menu-toggle").on "click", (event) ->
   else
     $("body").addClass( "menu-open")
 
+
 $("aside").stick_in_parent()
 
 console.log($);

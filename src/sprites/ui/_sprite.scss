@@ -34,16 +34,16 @@
 		}
 	}
 	.icon--ui__logo_big {
-		@include rem((width: 364.21px));
+		@include rem((width: 294px));
 
 		&:before {
-			padding-top: calc((79.17% / 364.21%) * 100%);
+			padding-top: calc((81% / 294%) * 100%);
 		}
 	}
 	.icon--ui__logo_footer {
-		@include rem((width: 364.9px));
+		@include rem((width: 265px));
 
 		&:before {
-			padding-top: calc((72.2% / 364.9%) * 100%);
+			padding-top: calc((74% / 265%) * 100%);
 		}
 	}
