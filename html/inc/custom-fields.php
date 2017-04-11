@@ -318,5 +318,4 @@ if($_SERVER['HTTP_HOST'] != "comfort.sem" AND $_SERVER['HTTP_HOST'] != "comfort.
 			'menu_order' => 1,
 		));
 	}
-
 }
