@@ -4,7 +4,7 @@
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git@bitbucket.org:magneetonline/comfort-bouwen.git"
+    "url": "git@github.com:xvilo/comfortbouwer.nl.git"
   },
   "dependencies": {
     "autoprefixer": "^6.1.2",

@@ -1,5 +1,5 @@
-# Stamco
-Stamco Custom Theme
+# comfortbouwer.nl
+Comfortbouwer.nl Custom Theme
 
 
 ## Frontend setup

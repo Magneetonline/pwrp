@@ -39,7 +39,7 @@ function sample_admin_notice__success() {
     if($curr_user == $admin_usr){
 	    ?>
 	    <div class="notice notice-warning">
-	        <p><?php _e( "Thema aanpassingen gelieve te doen in de PHP, SASS en Coffeescript files op de <a href='https://bitbucket.org/magneetonline/stamco' target='_blank'>bitbucket repository.</a> <br><small>Deze melding is alleen te zien voor {$admin_usr}</small>");?></p>
+	        <p><?php _e( "Thema aanpassingen gelieve te doen in de PHP, SASS en Coffeescript files op de <a href='https://github.com/xvilo/comfortbouwer.nl' target='_blank'>github repository.</a> <br><small>Deze melding is alleen te zien voor {$admin_usr}</small>");?></p>
 	    </div>
 	    <?php
 	}
